@@ -1,0 +1,55 @@
+.contact-form {
+  width: 35%;
+}
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+ input
+ {
+   width: 100%;
+   padding: 10px;
+ }
+
+.container {
+  display: flex;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    background-color: #dbdad6;
+}
+button {
+  padding: 10px;
+  background-color: #5d035d;
+  color: white;
+  box-shadow: 4px 6px 6px 0px white;
+  border-radius: 10px;
+  transition: 0.2s;
+  margin: 20px;
+  &:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+  }
+  &:focus{
+    outline: none;
+  }
+
+}
+.message {
+  margin-bottom: 10px;
+}
+.output{
+  border: 1px solid;
+  padding: 5px;
+  background-color: white;
+  box-shadow: inset -2px -2px 7px 0px black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 70%;
+}
+.sent {
+  margin-top: 100px;
+  font-size: 45px;
+  color: green;
+}

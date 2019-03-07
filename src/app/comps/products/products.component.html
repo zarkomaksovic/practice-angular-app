@@ -1,0 +1,12 @@
+<div class="thumbnail" *ngFor="let product of products">
+  <div class="image">
+    <img [src]="product.image" [alt]="product.name">
+  </div>
+  <div class="name">
+    {{ product.name | uppercase }}
+  </div>
+  <div class="price">
+    {{ product.price | currency:'EUR' }}
+  </div>
+</div>
+

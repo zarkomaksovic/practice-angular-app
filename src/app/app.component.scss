@@ -1,0 +1,36 @@
+*{
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+.navigation {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+app-header {
+  font-size: 3rem;
+  color: purple;
+  margin-left: 100px;
+}
+app-footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  min-height: 100px;
+  background-color: #dbdad6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  list-style: none;
+  align-items: center;
+}
